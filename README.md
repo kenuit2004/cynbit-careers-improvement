@@ -1,62 +1,69 @@
 # Smart Careers Search
 
-An independent careers search prototype built as a proposed improvement for a technical assessment.
+A responsive job search web application prototype built with React to help users discover and filter job opportunities easily.
 
 ## Overview
 
-Smart Careers Search helps users explore job opportunities through a simple, responsive interface. Users can search job titles and descriptions, filter roles by department and job type, and view additional information about each role.
+Smart Careers Search provides a simple interface for exploring job opportunities. Users can search by job title or description, filter opportunities by department and job type, view job details, and reset filters to explore all available listings.
 
-## Problem Statement
+## Features
 
-When exploring multiple job opportunities, users benefit from being able to narrow the available roles according to their interests instead of reviewing every role individually.
-
-## Proposed Improvement
-
-This prototype introduces:
-- **Keyword search** for job titles and descriptions.
-- **Department filters** for Technology, Business, and Marketing.
-- **Job type filters** for internship and full-time roles.
-- **Live result count** that updates with the filters.
-- **Job details modal** to view role information without leaving the page.
-- **Reset controls** to quickly restore all roles.
-- **Responsive design** for desktop and mobile screens.
-- **Empty state** when no roles match the selected criteria.
+- **Keyword Search:** Search job titles and descriptions.
+- **Department Filtering:** Filter roles by Technology, Business, and Marketing.
+- **Job Type Filtering:** Filter internship and full-time opportunities.
+- **Live Result Count:** View the number of jobs matching the selected filters.
+- **Job Details Modal:** View additional role information without leaving the page.
+- **Reset Filters:** Restore the complete list of sample jobs.
+- **Responsive Design:** Adapt the interface to desktop and mobile screens.
+- **Empty State:** Display a helpful message when no jobs match the search criteria.
 
 ## Technology Stack
 
-- React
+- React.js
 - JavaScript
 - HTML5
 - CSS3
 - Vite
 
-## Run Locally
+## Getting Started
 
-1. Install Node.js and npm.
-2. Clone this repository.
-3. Open the project directory in a terminal.
-4. Run:
+### Prerequisites
+
+Install Node.js and npm.
+
+### Installation
+
+1. Clone this repository.
+2. Open the project directory in your terminal.
+3. Install the dependencies:
 
    ```bash
    npm install
+   ```
+
+4. Start the development server:
+
+   ```bash
    npm run dev
    ```
 
-5. Open the local URL shown in the terminal.
+5. Open the local URL displayed in the terminal.
 
 ## Current Limitations
 
-- The prototype uses sample job data stored in the application.
-- It is not connected to a live recruitment database or application system.
-- The job details modal does not submit applications.
+- Job listings use sample data stored in the application.
+- The application is not connected to a live recruitment database or backend API.
+- The job details modal is for viewing information only and does not submit applications.
 
-## Future Improvements
+## Future Enhancements
 
-- Connect to a backend API for live job listings.
-- Add pagination for larger job lists.
-- Add a real application workflow.
-- Improve accessibility with keyboard navigation and focus management.
+- Integrate a backend API for dynamic job listings.
+- Add pagination for larger collections of jobs.
+- Implement an application submission workflow.
+- Improve accessibility with keyboard navigation and modal focus management.
 
-## Assessment Note
+## Project Purpose
 
-This is an independent prototype demonstrating a proposed user-experience improvement. It does not modify or represent an official deployment of Cynbit Technologies' website.
+This project demonstrates frontend development skills, responsive UI design, React state management, and client-side search and filtering.
+
+The application is a prototype and is not connected to or officially deployed by any recruitment platform.
