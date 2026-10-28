@@ -1,6 +1,9 @@
 # Smart Careers Search
 
 A responsive job search web application prototype built with React to help users discover and filter job opportunities easily.
+## Live Demo
+
+[View Smart Careers Search](https://cynbit-careers-improvement.vercel.app/)
 
 ## Overview
 
